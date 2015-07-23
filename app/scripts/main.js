@@ -124,7 +124,8 @@ var specs = [
   {name: 'Preload', repo: 'w3c/preload'},
   {name: 'High Resolution Time', repo: 'w3c/hr-time'},
   {name: 'Animation Timing', repo: 'w3c/animation-timing'},
-  {name: 'Server Timing', repo: 'w3c/server-timing'}
+  {name: 'Server Timing', repo: 'w3c/server-timing'},
+  {name: 'requestIdleCallback', repo: 'w3c/requestidlecallback'}
 ]
 
 specs.forEach(function(spec){
