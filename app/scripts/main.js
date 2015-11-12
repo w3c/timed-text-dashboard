@@ -112,20 +112,9 @@ var template = Handlebars.compile(source);
 
 
 var specs = [
-  {name: 'Resource Hints', repo: 'w3c/resource-hints'},
-  {name: 'Navigation Timing', repo: 'w3c/navigation-timing' },
-  {name: 'Resource Timing', repo: 'w3c/resource-timing'},
-  {name: 'Performance Timeline', repo: 'w3c/performance-timeline'},
-  {name: 'Frame Timing', repo: 'w3c/frame-timing'},
-  {name: 'Page Visibility', repo: 'w3c/page-visibility'},
-  {name: 'Beacon', repo: 'w3c/beacon'},
-  {name: 'User Timing', repo: 'w3c/user-timing'},
-  {name: 'Network Error Logging', repo: 'w3c/network-error-logging'},
-  {name: 'Preload', repo: 'w3c/preload'},
-  {name: 'High Resolution Time', repo: 'w3c/hr-time'},
-  {name: 'Animation Timing', repo: 'w3c/animation-timing'},
-  {name: 'Server Timing', repo: 'w3c/server-timing'},
-  {name: 'requestIdleCallback', repo: 'w3c/requestidlecallback'}
+  {name: 'TTML 1', repo: 'w3c/ttml1'},
+  {name: 'TTML 2', repo: 'w3c/ttml2' },
+  {name: 'IMSC', repo: 'w3c/imsc'}
 ]
 
 specs.forEach(function(spec){
