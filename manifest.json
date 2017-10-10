@@ -1,6 +1,6 @@
 {
-  "name": "W3C Webperf Tracker",
-  "short_name": "perf-tracker",
+  "name": "W3C Timed Text Tracker",
+  "short_name": "timed-text-tracker",
   "icons": [{
         "src": "images/touch/icon-128x128.png",
         "sizes": "128x128"
