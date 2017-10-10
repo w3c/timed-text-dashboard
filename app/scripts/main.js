@@ -114,7 +114,13 @@ var template = Handlebars.compile(source);
 var specs = [
   {name: 'TTML 1', repo: 'w3c/ttml1'},
   {name: 'TTML 2', repo: 'w3c/ttml2' },
-  {name: 'IMSC', repo: 'w3c/imsc'}
+  {name: 'IMSC', repo: 'w3c/imsc'},
+  {name: 'IMSC Tests', repo: 'w3c/imsc-tests'},
+  {name: 'HDR in PNG', repo: 'w3c/png-hdr-pq'},
+  {name: 'WebVTT', repo: 'w3c/webvtt'},
+  {name: 'IMSC vNext Requirements', repo: 'w3c/imsc-vnext-reqs'},
+  {name: 'TTML to WebVTT mapping', repo: 'w3c/ttml-webvtt-mapping'},
+  {name: 'TTML Profile Registry', repo: 'w3c/tt-profile-registry'}
 ]
 
 specs.forEach(function(spec){
