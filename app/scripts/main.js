@@ -112,8 +112,13 @@ var template = Handlebars.compile(source);
 
 
 var specs = [
+  {name: 'TTWG group repository', repo: 'w3c/ttwg'},
+  {name: 'TTWG future requirements', repo: 'tt-reqs'},
+  {name: 'TTWG draft charter', repo: 'charter-timed-text'},
   {name: 'TTML 1', repo: 'w3c/ttml1'},
-  {name: 'TTML 2', repo: 'w3c/ttml2' },
+  {name: 'TTML 1 tests', repo: 'w3c/ttml1-tests'},
+  {name: 'TTML 2', repo: 'w3c/ttml2'},
+  {name: 'TTML 2 tests', repo: 'w3c/ttml2-tests'},
   {name: 'IMSC', repo: 'w3c/imsc'},
   {name: 'IMSC Tests', repo: 'w3c/imsc-tests'},
   {name: 'HDR in PNG', repo: 'w3c/png-hdr-pq'},
@@ -129,4 +134,3 @@ specs.forEach(function(spec){
     main.innerHTML += template(spec);
   })
 })
-
